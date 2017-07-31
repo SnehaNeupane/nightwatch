@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="beforeEachAsync"
+    errors="1" failures="0" hostname="" id="" package="beforeEachAsync" skipped="0"
+    tests="1" time="0.03200" timestamp="Mon, 24 Jul 2017 05:58:50 GMT">
+  
+    <testcase name="demoTest" classname="beforeEachAsync" time="0.03200" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      Error: Provided error beforeEachAsync
+    at Timeout._onTimeout (/Users/Sneha/Documents/nightwatch-0.9.16/test/asynchookstests/async-provide-error/beforeEachAsync.js:10:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

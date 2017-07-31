@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="afterAsync"
+    errors="1" failures="0" hostname="" id="" package="afterAsync" skipped="0"
+    tests="1" time="0.02600" timestamp="Mon, 24 Jul 2017 05:58:50 GMT">
+  
+    <testcase name="demoTest" classname="afterAsync" time="0.02600" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      Error: Provided error afterAsync
+    at Timeout._onTimeout (/Users/Sneha/Documents/nightwatch-0.9.16/test/asynchookstests/async-provide-error/afterAsync.js:10:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="beforeEachAsyncWithClientMultiple"
+    errors="1" failures="0" hostname="" id="" package="beforeEachAsyncWithClientMultiple" skipped="0"
+    tests="2" time="0.02400" timestamp="Mon, 24 Jul 2017 05:58:50 GMT">
+  
+    <testcase name="demoTest1" classname="beforeEachAsyncWithClientMultiple" time="0.007000" assertions="0">
+    </testcase>
+  
+    <testcase name="demoTest2" classname="beforeEachAsyncWithClientMultiple" time="0.01700" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      Error: Provided error beforeEachAsyncWithClientMultiple
+    at Timeout._onTimeout (/Users/Sneha/Documents/nightwatch-0.9.16/test/asynchookstests/async-provide-error/beforeEachAsyncWithClientMultiple.js:22:14)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

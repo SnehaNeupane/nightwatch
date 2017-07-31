@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="afterWithClient"
+    errors="1" failures="0" hostname="" id="" package="afterWithClient" skipped="0"
+    tests="1" time="0.01700" timestamp="Mon, 24 Jul 2017 05:58:50 GMT">
+  
+    <testcase name="demoTest" classname="afterWithClient" time="0.01700" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      Error: Provided error afterWithClient
+    at F.&lt;anonymous&gt; (/Users/Sneha/Documents/nightwatch-0.9.16/test/asynchookstests/async-provide-error/afterWithClient.js:10:12)
+    at F.End.complete (/Users/Sneha/Documents/nightwatch-0.9.16/lib/api/client-commands/end.js:65:14)
+    at Immediate.&lt;anonymous&gt; (/Users/Sneha/Documents/nightwatch-0.9.16/lib/api/client-commands/end.js:48:12)
+    at runCallback (timers.js:651:20)
+    at tryOnImmediate (timers.js:624:5)
+    at processImmediate [as _immediateCallback] (timers.js:596:5)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

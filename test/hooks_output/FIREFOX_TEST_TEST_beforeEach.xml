@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="beforeEach"
+    errors="1" failures="0" hostname="" id="" package="beforeEach" skipped="0"
+    tests="1" time="0.01500" timestamp="Mon, 24 Jul 2017 05:58:49 GMT">
+  
+    <testcase name="demoTest" classname="beforeEach" time="0.01500" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      Error: Provided error beforeEach
+    at Object.beforeEach (/Users/Sneha/Documents/nightwatch-0.9.16/test/asynchookstests/async-provide-error/beforeEach.js:9:10)
+    at TestSuite.runHookMethod (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:591:17)
+    at TestSuite.&lt;anonymous&gt; (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:105:16)
+    at TestSuite.makePromise (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:528:8)
+    at Object.beforeEach (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:84:21)
+    at TestSuite.beforeEach (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:434:21)
+    at TestCase.run (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testcase.js:54:6)
+    at TestSuite.runTestCase (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:394:29)
+    at TestSuite.runNextTestCase (/Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:376:10)
+    at /Users/Sneha/Documents/nightwatch-0.9.16/lib/runner/testsuite.js:315:19
+    at _fulfilled (/Users/Sneha/Documents/nightwatch-0.9.16/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Sneha/Documents/nightwatch-0.9.16/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Sneha/Documents/nightwatch-0.9.16/node_modules/q/q.js:796:13)
+    at /Users/Sneha/Documents/nightwatch-0.9.16/node_modules/q/q.js:556:49
+    at runSingle (/Users/Sneha/Documents/nightwatch-0.9.16/node_modules/q/q.js:137:13)
+    at flush (/Users/Sneha/Documents/nightwatch-0.9.16/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
