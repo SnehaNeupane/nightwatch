@@ -17,8 +17,20 @@ module.exports = extend(module.exports, io);
 var login = require("./automation/login");
 module.exports = extend(module.exports, login);
 
+// var create_ws = require("./automation/create_ws");
+// module.exports = extend(module.exports, create_ws);
+
 var teams = require("./automation/teams");
 module.exports = extend(module.exports, teams);
 
-var assign_scope = require("./automation/assign_scope");
-module.exports = extend(module.exports, assign_scope);
+var user_invite = require("./automation/user_invite");
+module.exports = extend(module.exports, user_invite);
+
+// var assign_scope = require("./automation/assign_scope");
+// module.exports = extend(module.exports, assign_scope);
+
+// var ws_logout = require("./automation/ws_logout");
+// module.exports = extend(module.exports, ws_logout);
+
+// var logout = require("./automation/logout");
+// module.exports = extend(module.exports, logout);

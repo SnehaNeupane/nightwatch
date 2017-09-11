@@ -1,16 +1,21 @@
 module.exports = {
-  tags: ['assign-scope'],
-  'Assign scope to a user': function (client) {
+  tags: ['Click on tile and go to teams page'],
+  'Click on WorkStream Tile': function (client) {
     // client
     //   .url('https://appnxt.cloudfactory.com')
     //   .pause(500);
     // client.expect.element('body').to.be.present;
     client
-      .pause(2000)
-      .click('.workstream-tiles a:nth-of-type(2)').pause(15000) //WorkStream Tile
+      .pause(4000)
+      .execute(function () {
+        document.querySelector('.tiles').click();
+      })
+      .pause(17000)
       // .assert.hidden('.faded-font')
+      .assert.elementPresent('.fa-times')
       .click('.fa-times').pause(500) // Hide Tour
-      .click('.fa-users').pause(3000); //Teams
+      .assert.elementPresent('.fa-users')
+      .click('.fa-users').pause(5000); //Teams
     // .assert()
     // client.end();
   }
