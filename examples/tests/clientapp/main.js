@@ -17,14 +17,17 @@ module.exports = extend(module.exports, io);
 var login = require("./automation/login");
 module.exports = extend(module.exports, login);
 
+var overall_schedule = require("./automation/overall_schedule");
+module.exports = extend(module.exports, overall_schedule);
+
 // var create_ws = require("./automation/create_ws");
 // module.exports = extend(module.exports, create_ws);
 
-var teams = require("./automation/teams");
-module.exports = extend(module.exports, teams);
+// var teams = require("./automation/teams");
+// module.exports = extend(module.exports, teams);
 
-var user_invite = require("./automation/user_invite");
-module.exports = extend(module.exports, user_invite);
+// var user_invite = require("./automation/user_invite");
+// module.exports = extend(module.exports, user_invite);
 
 // var assign_scope = require("./automation/assign_scope");
 // module.exports = extend(module.exports, assign_scope);

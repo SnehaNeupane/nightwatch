@@ -7,7 +7,8 @@ module.exports = {
       .click('.fa.fa-user-plus').pause(1000)
       .assert.elementPresent('.invite-select input')
       // .click('.invite-select input').pause(1000)
-      .setValue('.invite-select input', 'lanthu@lanthu.com').pause(4000)
+      .setValue('.invite-select input', 'lanthu@lanthu.com').pause(6000)
+      .click('.invite-select input').pause(500)
       .keys(client.Keys.TAB);
   }
 }

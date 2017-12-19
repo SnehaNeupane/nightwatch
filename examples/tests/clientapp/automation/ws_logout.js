@@ -6,7 +6,7 @@ module.exports = {
     //   .pause(500);
     client
       .click('.overlay-text').pause(200)
-      .click('ws-signout').pause(22000);
+      .click('.ws-signout').pause(22000);
     // client.end();
   }
 }

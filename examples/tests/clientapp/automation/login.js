@@ -14,6 +14,6 @@ module.exports = {
       .assert.elementPresent('.sign_in')
       .setValue('#user_email', 'sneha@nxt.com')
       .setValue('#user_password', 'kathmandu09')
-      .click('.sign_in').pause(48000);
+      .click('.sign_in').pause(13000);
   }
 }

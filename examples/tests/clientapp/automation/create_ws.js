@@ -10,8 +10,9 @@ module.exports = {
       .assert.elementPresent('.new-project-button')
       .click('.new-project-button').pause(4000)
       .setValue('#project_name', 'Wrapper #PR').pause(100)
+      .keys(client.Keys.TAB)
       .setValue('#project_description', 'Lorem ipsum').pause(100)
-      .click('.btn-primary').pause(7000);
+    // .click('.btn-primary').pause(7000);
     client.end();
   }
 }
