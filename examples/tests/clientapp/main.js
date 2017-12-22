@@ -20,6 +20,9 @@ module.exports = extend(module.exports, login);
 var overall_schedule = require("./automation/overall_schedule");
 module.exports = extend(module.exports, overall_schedule);
 
+var create_schedule = require("./automation/create_schedule");
+module.exports = extend(module.exports, create_schedule);
+
 // var create_ws = require("./automation/create_ws");
 // module.exports = extend(module.exports, create_ws);
 

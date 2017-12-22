@@ -2,7 +2,7 @@ module.exports = {
   tags: ['Click on tile and go to teams page'],
   'Click on WorkStream Tile': function (client) {
     client
-      .pause(4000)
+      .pause(3000)
       .execute(function () {
         document.querySelector('.tiles').click();
       })

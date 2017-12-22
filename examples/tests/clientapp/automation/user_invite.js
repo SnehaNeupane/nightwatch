@@ -3,12 +3,12 @@ module.exports = {
   'Invite User': function (client) {
     client
       .pause(2000)
-      .assert.elementPresent('.fa.fa-user-plus')
       .click('.fa.fa-user-plus').pause(1000)
-      .assert.elementPresent('.invite-select input')
-      // .click('.invite-select input').pause(1000)
-      .setValue('.invite-select input', 'lanthu@lanthu.com').pause(6000)
-      .click('.invite-select input').pause(500)
-      .keys(client.Keys.TAB);
+      .assert.elementPresent('.Select-placeholder')
+      .click('.Select-placeholder')
+      .setValue('.Select-placeholder', 'lanthu@lanthu.com').pause(3000)
+      .keys(client.Keys.TAB)
+      .keys(client.Keys.ESC)
+      .click('.emailCount').pause(500);
   }
 }
