@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="clientapp.main"
+    errors="0" failures="0" hostname="" id="" package="clientapp" skipped="0"
+    tests="2" time="53.67" timestamp="Wed, 17 Jan 2018 04:12:21 GMT">
+  
+    <testcase name="Workstream App Login" classname="clientapp.main" time="30.63" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Workstream App Logout" classname="clientapp.main" time="23.04" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

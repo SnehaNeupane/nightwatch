@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="clientapp.main"
+    errors="0" failures="1" hostname="" id="" package="clientapp" skipped="0"
+    tests="1" time="5.767" timestamp="Tue, 05 Dec 2017 10:16:05 GMT">
+  
+    <testcase name="Cfclient App Login" classname="clientapp.main" time="5.767" assertions="1">  <failure message="Expected element &lt;body&gt; to be present - element was not found">    at Object.before (/Users/Sneha/github/automation_testing/examples/tests/clientapp/io.js:6:20)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
